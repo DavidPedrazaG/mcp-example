@@ -64,9 +64,9 @@
 En tres terminales distintas:
 
 ```bash
-python servers/monitor_server.py
-python servers/file_server.py
-python servers/db_server.py
+python python -m servers.monitor_server
+python python -m servers.file_server
+python python -m servers.db_server
 ```
 
 ### 🚀 2. Ejecutar el host
