@@ -72,7 +72,7 @@ python python -m servers.db_server
 ### 🚀 2. Ejecutar el host
 
 ```bash
-python host.py
+python -m host
 ```
 
 ### 📄 3. Tareas ejecutadas
