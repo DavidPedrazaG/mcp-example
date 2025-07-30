@@ -1,0 +1,17 @@
+[
+  {
+    "type": "monitor",
+    "action": "get_metrics",
+    "params": {"cpu": true, "mem": true}
+  },
+  {
+    "type": "file",
+    "action": "read",
+    "params": {"path": "/logs/app.log"}
+  },
+  {
+    "type": "db",
+    "action": "insert",
+    "params": {"table": "events", "data": {"level": "info", "msg": "todo ok"}}
+  }
+]
